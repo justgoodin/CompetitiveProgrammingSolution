@@ -11,11 +11,11 @@ def miniMaxSum(arr):
     ascending = sorted(arr,reverse=True)
     descending = sorted(arr)
     size = len(arr)-1
-    max,min = 0,0
+    maximum,minimum = 0,0
 
     for i in range(0,size):
-        max += ascending[i]
-        min += descending[i]
+        maximum += ascending[i]
+        minimum += descending[i]
     
     print(min,max)
 
