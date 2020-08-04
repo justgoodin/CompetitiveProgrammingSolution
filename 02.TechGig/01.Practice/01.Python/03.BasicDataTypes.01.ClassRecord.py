@@ -7,10 +7,10 @@ def main():
         record[i] = list(map(str,input().split(" ")))
     
     for i in range(1,6):
-        sum=0
+        sumOfMarks=0
         for j in range(0,count):
-            sum=sum+float(record[j][i])
-        print("{:.2f}".format(sum/count),end="")
+            sumOfMarks=sumOfMarks+float(record[j][i])
+        print("{:.2f}".format(sumOfMarks/count),end="")
         if i<5:
             print(end=" ")
 
