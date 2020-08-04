@@ -1,3 +1,21 @@
+def main():
+
+    separator = input()
+    inputString = []
+    
+    while(True):
+        try:
+            ch=input()
+        except:
+            break;
+        inputString.append(ch)
+
+    outputString = separator.join(inputString)
+
+    print(outputString,end="")
+
+main()
+
 '''
 String join (100 Marks)
 You just need to take string input from stdin and bunch from strings one on each line and you need to concatenate them as shown in the sample.
@@ -29,21 +47,3 @@ Source Limit:
 Allowed Languages:
 Python, Python 3
 '''
-def main():
-
-    separator = input()
-    inputString = []
-    
-    while(True):
-        try:
-            ch=input()
-        except:
-            break;
-        inputString.append(ch)
-
-    outputString = separator.join(inputString)
-
-    print(outputString,end="")
-
-main()
-
