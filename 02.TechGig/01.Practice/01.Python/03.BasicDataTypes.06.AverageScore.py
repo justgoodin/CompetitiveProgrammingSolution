@@ -2,7 +2,7 @@ def main():
 
     count = int(input())
     inputList = [[]*4]*count
-    sum = 0
+    sumOfScore = 0
     for i in range(0,count):
         inputList[i]=list(map(str,input().split(" ")))
 
@@ -14,9 +14,9 @@ def main():
     player = input()
     
     for  i in range(1,4):
-        sum += int(inputList[playerList.index(player)][i])
+        sumOfScore += int(inputList[playerList.index(player)][i])
 
-    print('{:.2f}'.format(float(sum/3)))
+    print('{:.2f}'.format(float(sumOfScore/3)))
 
 main()
 
