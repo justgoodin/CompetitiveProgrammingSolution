@@ -1,3 +1,6 @@
+#Link to the question below
+#
+
 #!/bin/python3
 import math
 import os
@@ -27,9 +30,3 @@ if __name__ == '__main__':
     result = sockMerchant(n, ar)
     fptr.write(str(result) + '\n')
     fptr.close()
-
-
-
-'''
-
-'''
