@@ -1,9 +1,3 @@
-#Solution Here
+#Link to the question below
+#
 
-
-
-'''
-#Link to Question Here
-
-#Question Below for reference
-'''
