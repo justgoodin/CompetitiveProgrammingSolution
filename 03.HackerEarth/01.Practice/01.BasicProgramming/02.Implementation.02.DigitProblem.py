@@ -1,3 +1,6 @@
+#Link to the question below
+#
+
 if __name__ == "__main__":
     X,K = map(str,input().split())
     K = int(K)
@@ -11,25 +14,3 @@ if __name__ == "__main__":
             output += i
 
     print(output)
-
-'''
-This time your task is simple.
-
-Given two integers X and K, find the largest number that can be formed by changing digits at atmost K places in the number X.
-
-Input:
-
-First line of the input contains two integers X and K separated by a single space.
-
-Output:
-
-Print the largest number formed in a single line.
-
-Constraints:
-
-
-SAMPLE INPUT 
-4483 2
-SAMPLE OUTPUT 
-9983
-'''

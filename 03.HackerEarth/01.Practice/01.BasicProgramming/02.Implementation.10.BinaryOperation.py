@@ -9,6 +9,4 @@ if __name__ == "__main__":
     if d[c0+'0']!=d['0'+c0] or d[c0+'1']!=d['0'+c1] or d[c1+'0']!=d['0'+c2] or d[c1+'1']!= d['0'+c3] or d[c2+'0']!=d['1'+c0] or d[c2+'1']!= d['1'+c1] or d[c3+'0']!=d['1'+c2] or d[c3+'1']!=d['1'+c3]:
         print('No')
     else:
-        print('Yes')        
-
-
+        print('Yes)
