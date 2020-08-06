@@ -14,4 +14,3 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
     
     print(" ".join(str(i) for i in arr[::-1]))
-
