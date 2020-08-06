@@ -13,4 +13,3 @@ if __name__ == "__main__":
         print("Online Taxi")
     else:
         print("Classic Taxi")
-

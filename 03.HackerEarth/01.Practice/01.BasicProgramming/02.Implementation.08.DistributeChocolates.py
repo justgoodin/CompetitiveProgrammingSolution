@@ -15,4 +15,3 @@ if __name__ == "__main__":
             left = int(c - n*(2*k + n - 1)//2)
 
         print(left)
-
