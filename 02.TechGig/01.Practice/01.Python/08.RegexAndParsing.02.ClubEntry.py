@@ -1,6 +1,7 @@
 #Link to the question below
 #https://www.techgig.com/practice/question/club-entry/ZFNyS1BoWFppZnhraW91ei9UUjRYQnVpYWVtRVZ5SzVlRnFNcjNuUkk0WThaUkFrY0FqNlB3WURGR3U3YmdEcQ==/1
 
+import re
 def main():
 
     num = input()

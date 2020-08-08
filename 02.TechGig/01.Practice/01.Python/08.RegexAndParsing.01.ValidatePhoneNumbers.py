@@ -1,16 +1,20 @@
 #Link to the question below
 #https://www.techgig.com/practice/question/validate-phone-numbers/ekNTZHlQd0RxR1gvUVVzcUNZdE5GUlMwV28wVS8zQVZobEdzbkdzaDlBSzBIeTFpTi9Oa3BsNVVzZUNJNm1HVw==/1
 
+
+#Solved using RegEx
+import re
+
 def main():
     N = int(input())
-    output = "Invalid"
-    valid = ["1","2"]
+    
     for i in range(N):
+        output = "Invalid"
         num = input()
-        if num[0] in valid and len(num)==13:
+        pattern = re.match(r"^[1-2][0-9]{12}",num)
+        
+        if pattern:
             output = "Valid"
-        else:
-            output = "Invalid"
 
         if i <N-1:
             print(output)
