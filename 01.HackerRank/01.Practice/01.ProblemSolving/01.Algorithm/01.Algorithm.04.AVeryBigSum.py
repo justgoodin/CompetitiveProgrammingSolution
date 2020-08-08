@@ -10,11 +10,11 @@ import sys
 
 # Complete the aVeryBigSum function below.
 def aVeryBigSum(ar):
-    sum = 0
+    sumOf = 0
     for value in ar:
-        sum = sum + value
+        sumOf = sumOf + value
     
-    return sum
+    return sumOf
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
