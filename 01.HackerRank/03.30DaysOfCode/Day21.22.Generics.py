@@ -1,2 +1,4 @@
 #Link to the question below
-#https://www.hackerrank.com/challenges/30-generics/problem
+#https://www.hackerrank.com/challenges/generics/problem
+
+#Not relevant to python solution
